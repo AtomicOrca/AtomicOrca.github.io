@@ -1,0 +1,82 @@
+
+/* Hoja de estilos y diseño de formularios por JJRR */
+
+div#div_formu {
+	overflow: scroll;
+	height: 60vh;
+}
+
+form{
+	width:30vw;
+	padding:2% 3%;
+	/*position: absolute;*/
+	top: 55%;
+	left: 50%;
+	/*transform: translate(-50%,-50%);*/
+	background-color:white;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+	text-align: center;
+	margin: auto;
+}
+
+input[type=text], input[type=number], input[type=mail], input[type=password], textarea{
+	margin-top:10px;
+	margin-bottom:10px;
+	background:#ecf0f1;
+	width:100%;
+	font-size:16px;
+	text-align:center;
+	transition: 1s;
+	border:none;
+	padding: 5px;
+}
+
+textarea{
+	max-width: 100%;
+	max-height: 100px;
+}
+
+input:focus{
+	border: 1px solid #f4623a;
+	background-color:#7f8c8d;
+	color:white;
+}
+
+input[type=submit]{
+	margin-top:10px;
+	margin-bottom:8px;
+	padding:10px;
+	width:90%;
+	font-size:15px;
+	background-color:#3a7cf4;
+	border:none;
+	cursor:pointer;
+	transition:1s;
+	color:#ecf0f1;
+}
+
+input[type=submit]:hover{
+	background-color:#f4623a;
+	color:#FFF;
+	transition:1s;
+}
+
+input[type=reset]{
+	padding:10px;
+	width:90%;
+	font-size:15px;
+	background-color:#f4623a;
+	border:none;
+	cursor:pointer;
+	transition:1s;
+	color:#ecf0f1;
+}
+
+input[type=reset]:hover{
+	background-color:#3a7cf4;
+	color:#FFF;
+	transition:1s;
+}
